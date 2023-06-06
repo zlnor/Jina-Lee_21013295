@@ -11,7 +11,7 @@ for i=1:num_d
        az(i) = az(i) + 2*pi;
     end
     
-    az=az';
+    az=az*180/pi;
 end
 
 end
